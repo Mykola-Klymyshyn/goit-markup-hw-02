@@ -1,18 +1,9 @@
-body {
-background: #FFFFFF;
-font-family: 'Roboto';
-}
+ :root{
     
-.filter-button-item:hover,
-.filter-button-item:focus,
-.filter-button-item:active {
-        color: #2196F3;
-    }
-   
-
-.menu,.menu-list{
-    color: #212121;
-}
-.menu,.menu-list:hover,.menu-list:focus{
-color: #2196F3;
-}
+    
+ }
+ 
+ body {
+     background-color: green;
+     font-family: 'Roboto' , sans-serif;
+ }
