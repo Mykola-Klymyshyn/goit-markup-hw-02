@@ -1,101 +1,143 @@
- :root{
-    --primary-text-color:#212121;
-    --secondary-text-color:#757575;
-    --color-accent:#2196f3;
-    --color-white:#ffffff;
-    --color-hero:#2f303a;
-    --color-footer: #2f303a;
-    --color-team:#f5f4fa;
- }
- .lis{
-    list-style: none;
- }
- body {
-    width: 1600px;
-    height: 1880px;
-    font-size: 18px;
-    font-weight: 500;
-    font-style: normal;
-    background-color: #ffffff;
-    color: var(--primary-text-color);
-    font-family: 'Roboto', sans-serif;
- }
- /*Стилізація шапки сторінок студія та портфоліо*/
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --color-accent: #2196f3;
+  --color-white: #ffffff;
+  --color-hero: #2f303a;
+  --color-footer: #2f303a;
+  --color-team: #f5f4fa;
+}
+.lis {
+  list-style: none;
+}
+body {
+  width: 1600px;
+  height: 1880px;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+}
+/*Стилізація шапки сторінок студія та портфоліо*/
 
-    .logo-web{
-        color: var(--color-accent);
-    }
-    .logo-h{
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.20;
-        text-decoration: none;
-        color: var(--primary-text-color);
-    }
-    .menu-link {
-            text-decoration: none;
-            color: var(--primary-text-color);
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height:1.14;
-            letter-spacing: 0.02em;
-        }
-    
-    .menu-link:hover,
-    .menu-link:focus {
-            color: var(--color-accent);
-            cursor: pointer;
-        }    
-    .contact-link{
-        text-decoration: none;
-        color: var(--secondary-text-color);
-        font-family: 'Roboto',sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-    }
-    .contact-link:hover, 
-    .contact-link:focus{
-        color:var(--color-accent);
-        cursor: pointer;
-    }
-    
-/*секція герой*/
+.logo-web {
+  color: var(--color-accent);
+}
+.logo-h {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.menu-link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--color-accent);
+}
+
+.contact-link {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--color-accent);
+}
+
+/*Секція-герой-Студія*/
 .hero {
-    background-color: var(--color-hero);
-    width: 1600px;
+  background-color: var(--color-hero);
 }
-.hero-tittle{
-    color: var(--color-white);
-    text-transform:uppercase;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.40;
+.hero-tittle {
+  color: var(--color-white);
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
 }
-.hero-button{
-    font-size: 16px;
-    font-weight: 700;
-    font-family: inherit;
-    line-height: 1.875;
-    background-color: var(--color-accent);
-    color: var(--color-white);
+.hero-button {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: inherit;
+  line-height: 1.87;
+  background-color: var(--color-accent);
+  color: var(--color-white);
 }
-.hero-button:hover,.hero-button:focus{
-    background-color: #188ce8;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    color: var(--color-white);
-    cursor: pointer;
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--color-white);
+  cursor: pointer;
 }
-/* секція Наші переваги*/
+/* Секція-Наші-переваги-Студія*/
+
+.features-tittle {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.features-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* Секція-Чим-ми-займаємось-Студія */
+.specifics-tittle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* Секція-Наша-команда-Студія*/
+.ourteam {
+  background-color: var(--color-team);
+}
+
+.ourteam-item {
+  background-color: var(--color-white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.ourteam-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.ourteam-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* Стилізація-секції-Наші-проекти-Портфоліо  */
+
 /* .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -108,98 +150,49 @@
     clip-path: inset(50%);
     margin: -1px;
 } */
-.features-list{
-    list-style: none;
-}
-.features-tittle{
-    text-transform: uppercase;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-}
-.features-text{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: var(--secondary-text-color);
-}
-/* Секція Чим ми займаємось */
-.specifics-tittle{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-}
-/* .specifics-list{
-    list-style: none;
-} */
 
-/* Секція Наша команда*/
-.ourteam{
-    background-color: var(--color-team);
+.radio-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }
-/* .ourteam-list{
-    list-style: none; */
+.radio-btn:hover,
+.radio-btn:focus {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  cursor: pointer;
 }
-.ourteam-item{
-    background-color:var(--color-white);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+/* Стилізація-підвалу-Студія-та-Портфоліо */
+.footer {
+  background-color: var(--color-footer);
 }
-.ourteam-name{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.20;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
+.footer {
+  background-color: var(--color-footer);
 }
-.ourteam-text{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.20;
-    letter-spacing: 0.03em;
-    color: var(--secondary-text-color);
+.logo-f {
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--color-white);
 }
-/* Стилізація підвалу студія та портфоліо */
-.footer{
-    background-color:var(--color-footer);
-    width: 1600px;
+.maps-location {
+  color: var(--color-white);
 }
-.logo-f{
-    list-style: none;
-    text-decoration: none;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.20;
-    color: var(--color-white);
-
+.address-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-.maps-location{
-    color: var(--color-white);
-}
-.address-link{
-    text-decoration: none;
-        color: rgba(255, 255, 255, 0.6);;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
+.address-link:hover,
+.address-link:focus {
+  color: var(--color-accent);
 }
