@@ -6,17 +6,16 @@
   --color-hero: #2f303a;
   --color-footer: #2f303a;
   --color-team: #f5f4fa;
+  --color-hero-button: #188ce8;
+  --color-address: rgba(255, 255, 255, 0.6);
+  --font-logo: 'Raleway', sans-serif;
 }
-.lis {
+.list-reset {
   list-style: none;
 }
 body {
-  width: 1600px;
-  height: 1880px;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 16px;
   font-style: normal;
-  background-color: #ffffff;
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
 }
@@ -25,8 +24,8 @@ body {
 .logo-web {
   color: var(--color-accent);
 }
-.logo-h {
-  font-family: 'Raleway';
+.logo {
+  font-family: var(--font-logo);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -34,7 +33,11 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+.logo-studio-h {
+  color: var(--primary-text-color);
+}
 .menu-link {
+  font-weight: 500;
   text-decoration: none;
   color: var(--primary-text-color);
   font-size: 14px;
@@ -63,7 +66,7 @@ body {
 .hero {
   background-color: var(--color-hero);
 }
-.hero-tittle {
+.hero-title {
   color: var(--color-white);
   text-transform: uppercase;
   font-weight: 900;
@@ -78,35 +81,34 @@ body {
   background-color: var(--color-accent);
   color: var(--color-white);
   letter-spacing: 0.06em;
+  border: none;
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #188ce8;
+  background-color: var(--color-hero-button);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--color-white);
   cursor: pointer;
+  border: none;
 }
 /* Секція-Наші-переваги-Студія*/
 
-.features-tittle {
+.features-title {
   text-transform: uppercase;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 .features-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 /* Секція-Чим-ми-займаємось-Студія */
-.specifics-tittle {
-  font-weight: 700;
+.specifics-title {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -120,8 +122,8 @@ body {
 
 .ourteam-item {
   background-color: var(--color-white);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2); */
   border-radius: 0px 0px 4px 4px;
 }
 .ourteam-name {
@@ -132,7 +134,6 @@ body {
   color: var(--primary-text-color);
 }
 .ourteam-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -140,18 +141,18 @@ body {
 }
 /* Стилізація-секції-Наші-проекти-Портфоліо  */
 
-/* .visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-} */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 
 .radio-btn {
   font-family: inherit;
@@ -167,16 +168,12 @@ body {
   color: var(--color-white);
   cursor: pointer;
 }
-.project-title {
-  font-weight: 700;
+.portfolio-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  text-transform: capitalize;
 }
-.project-text {
-  font-weight: 400;
-  font-size: 16px;
+.portfolio-text {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
@@ -189,23 +186,16 @@ body {
 .footer {
   background-color: var(--color-footer);
 }
-.logo-f {
-  text-decoration: none;
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
+.logo-studio-f {
   color: var(--color-white);
 }
 .maps-location {
   color: var(--color-white);
 }
 .address-link {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
   font-style: normal;
-  font-weight: 400;
+  text-decoration: none;
+  color: var(--color-address);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
