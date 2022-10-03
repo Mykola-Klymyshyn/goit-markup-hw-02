@@ -154,7 +154,7 @@ body {
   margin: -1px;
 }
 
-.radio-btn {
+.portfolio-radio-btn {
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
@@ -162,8 +162,8 @@ body {
   line-height: 1.6;
   letter-spacing: 0.03em;
 }
-.radio-btn:hover,
-.radio-btn:focus {
+.portfolio-radio-btn:hover,
+.portfolio-radio-btn:focus {
   background-color: var(--color-accent);
   color: var(--color-white);
   cursor: pointer;
