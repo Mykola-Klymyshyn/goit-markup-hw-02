@@ -90,7 +90,6 @@ body {
   border-radius: 4px;
   color: var(--color-white);
   cursor: pointer;
-  border: none;
 }
 /* Секція-Наші-переваги-Студія*/
 
@@ -161,6 +160,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
+  border: none;
 }
 .portfolio-radio-btn:hover,
 .portfolio-radio-btn:focus {
