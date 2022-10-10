@@ -10,6 +10,7 @@
   --color-address: rgba(255, 255, 255, 0.6);
   --font-logo: 'Raleway', sans-serif;
   --font-family-primary: 'Roboto', sans-serif;
+  --border-color-portfolio: #eeeeee;
 }
 
 .list-reset {
@@ -358,4 +359,10 @@ img {
   flex-basis: calc((100%-60px) / 3);
   flex-wrap: wrap;
   gap: 30px;
+}
+.portfolio-card-text-positions {
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--border-color-portfolio);
+  border-right: 1px solid var(--border-color-portfolio);
+  border-left: 1px solid var(--border-color-portfolio);
 }
