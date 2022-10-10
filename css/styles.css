@@ -254,19 +254,23 @@ img {
 .address-link:focus {
   color: var(--color-accent);
 }
-.header {
-  border-bottom: 1px solid #ececec;
-  padding: 24px 0 25px;
-}
-.section {
-  padding: 94px 0;
-}
+
+/* Почfток розмітки Flex*/
 .container {
   width: 100%;
   max-width: 1230px;
   margin: 0 auto;
   padding: 0 15px;
 }
+.section {
+  padding: 94px 0;
+}
+
+.header {
+  border-bottom: 1px solid #ececec;
+  padding: 24px 0 25px;
+}
+
 .box {
   display: flex;
   box-sizing: content-box;
@@ -286,6 +290,7 @@ img {
   display: flex;
   gap: 50px;
 }
+
 .hero-flex {
   display: flex;
   box-sizing: content-box;
@@ -325,7 +330,6 @@ img {
   margin-top: 50px;
 }
 .card-text-position {
-  /* text-align: center; */
   margin: 30px auto;
 }
 .footer-flex {
